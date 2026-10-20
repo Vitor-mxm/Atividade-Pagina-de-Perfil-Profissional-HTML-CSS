@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Tech Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topo">
+
+        <h1>Tech Store</h1>
+
+        <nav class="menu">
+            <a href="#">Início</a>
+            <a href="#">Produtos</a>
+            <a href="#">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>Nossos produtos</h2>
+
+        <div class="produtos">
+
+            <div class="card">
+                <h3>Notebook</h3>
+
+                <p>
+                    Notebook para estudos e trabalho.
+                </p>
+
+                <p class="preco">
+                    R$` 3.500,00
+                </p>
+
+                <button>Comprar</button>
+            </div>
+
+            <div class="card">
+                <h3>Mouse Gamer</h3>
+
+                <p>
+                    Mouse com alta precisão.
+
+                </p>
+
+                <p class="preco">
+                    R`$ 150,00
+                </p>
+
+                <button>Comprar</button>
+            </div>
+
+            <div class="card">
+                <h3>Teclado</h3>
+
+                <p>
+                    Teclado mecânico profissional.
+                </p>
+
+                <p class="preco">
+                    R$ 280,00
+                </p>
+
+                <button>Comprar</button>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
+
+-------------------------------------------------------------------CSS--------------------------------------------------------------------------
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+
+    color: #222222;
+}
+
+.topo {
+    background-color: #222222;
+
+    color: white;
+
+    padding: 20px;
+}
+
+.topo h1 {
+    margin: 0;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu a {
+    color: white;
+
+    text-decoration: none;
+
+    margin-right: 20px;
+}
+
+main {
+    width: 900px;
+
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 200px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #333333;
+}
+
+.preco {
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+button {
+    background-color: #333333;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555555;
+}
